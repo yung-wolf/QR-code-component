@@ -26,6 +26,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   font-family: var(--primary-font-family);
+  font-size: 0.8rem;
 }
 
 h1,
@@ -38,7 +39,8 @@ h3 {
 
 img {
   display: block;
-  max-width: 100%;
+  margin: auto;
+  max-width: 98%;
   height: auto;
   border-radius: 10px;
 }
@@ -46,8 +48,7 @@ img {
 
 /* Start QR Code Component */
 .qr-container {
-  width: 25%;
-  min-width: 200px;
+  width: 20%;
   height: auto;
   padding: 15px;
   border-radius: 15px;
@@ -57,8 +58,8 @@ img {
 p {
   font-size: var(--primary-font-size-paragraph);
   font-weight: var(--primary-font-weight);
-  padding: 0 25px;
   margin: 0;
+  padding: 15px 0;
   color: var(--secondary-color-slate);
 }
 
@@ -68,5 +69,5 @@ section {
 }
 
 h1 {
-  padding: 15px;
+  padding: 0;
 }
