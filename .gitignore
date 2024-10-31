@@ -1,0 +1,4 @@
+# ignore all files that end with .fig or .jpg / .jpeg
+*.fig
+*.jpg
+*.jpeg

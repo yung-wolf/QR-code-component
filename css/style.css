@@ -1,0 +1,71 @@
+/* Global Rules */
+:root {
+  --bg-color-slate: hsl(212, 45%, 89%);
+  --bg-color-white: hsl(0, 0%, 100%);
+  --primary-font-family: "Outfit", sans-serif;
+  --primary-font-size-paragraph: 15px;
+  --primary-font-weight: 400;
+  --secondary-font-weight: 700;
+  --primary-color-slate: hsl(218, 44%, 22%);
+  --secondary-color-slate: hsl(220, 15%, 55%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  webkit-box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color-slate);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: var(--primary-font-family);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: var(--secondary-font-weight);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+/* End Global Rules */
+
+/* Start QR Code Component */
+.qr-container {
+  width: 25%;
+  min-width: 200px;
+  height: auto;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: var(--bg-color-white);
+}
+
+p {
+  font-size: var(--primary-font-size-paragraph);
+  font-weight: var(--primary-font-weight);
+  padding: 0 25px;
+  color: var(--secondary-color-slate);
+}
+
+span {
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  padding: 15px;
+}
