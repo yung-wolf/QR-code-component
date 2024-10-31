@@ -58,6 +58,7 @@ p {
   font-size: var(--primary-font-size-paragraph);
   font-weight: var(--primary-font-weight);
   padding: 0 25px;
+  margin: 0;
   color: var(--secondary-color-slate);
 }
 
