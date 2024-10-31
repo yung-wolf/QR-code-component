@@ -7,7 +7,7 @@
   --primary-font-weight: 400;
   --secondary-font-weight: 700;
   --primary-color-slate: hsl(218, 44%, 22%);
-  --secondary-color-slate: hsl(220, 15%, 55%);
+  --secondary-color-slate: hsl(216, 15%, 48%);
 }
 
 *,
@@ -33,6 +33,7 @@ h2,
 h3 {
   margin: 0;
   font-weight: var(--secondary-font-weight);
+  color: var(--primary-color-slate);
 }
 
 img {
@@ -60,11 +61,11 @@ p {
   color: var(--secondary-color-slate);
 }
 
-span {
+section {
   padding: 10px;
   text-align: center;
 }
 
-h2 {
+h1 {
   padding: 15px;
 }
